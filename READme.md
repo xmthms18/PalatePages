@@ -25,7 +25,7 @@
 
 ## Restful routes
 
-<img src =" AA523E3D-8D51-467D-98A1-BA3AF039C901.jpeg">
+<img src ="AA523E3D-8D51-467D-98A1-BA3AF039C901.jpeg">
 
 
 ## MVP
