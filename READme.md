@@ -20,40 +20,13 @@
 
 ## ERDs
 
-+------------+ one to many +------------+ one to many +-------------+
-|   User     | <---------->|  Cookbook  | <------->   | Recipe      |
-+------------+             +------------+             +-------------+
-| userID     |             | cookbookID |             | recipeID    |
-| email      |             | userID     |             | title       |
-| password   |             | recipeID   |             | ingredients |
-| created_at |             | notes      |             | catogory    |
-| updated_at |             | rating     |             | created_at  |
-+------------+             | created_at |             | insructions |
-                           | updated_at |             +-------------+
-                           +------------+
+<img src ="6BF6A3F7-FC64-4052-9D76-314B87477A0F_4_5005_c.jpeg">
 
 
 ## Restful routes
-|---------------------------------------------------------------|
-| User Authentication                                           |
-|---------------------------------------------------------------|
-| POST | /api/users/signup         |                            |
-| POST | /api/users/login          | User Login                 |
-| POST | /api/users/logout         | User Logout                |
-| POST | /api/users/reset-password | Reset User Password        |
-|---------------------------------------------------------------|
-| Recipe Search and Discovery      |                            |
-|---------------------------------------------------------------|
-| GET  | /api/recipes/search       | Search Recipes             |
-| GET  | /api/recipes/:id          | Get Recipe by ID           |
-|---------------------------------------------------------------|
-| Users CookBook                                                |
-|---------------------------------------------------------------|
-| GET    | /api/cookbook           | Get User's Cookbook        |
-| POST   | /api/cookbook           | Add Recipe to Cookbook     |
-| PUT    | /api/cookbook/:recipeId | Update Recipe in Cookbook  |
-| DELETE | /api/cookbook/:recipeId | Delete Recipe from Cookbook|
-|---------------------------------------------------------------|
+
+<img src =" AA523E3D-8D51-467D-98A1-BA3AF039C901.jpeg">
+
 
 ## MVP
 - Search/Home page
@@ -68,4 +41,3 @@
 
 
 
-# PalatePages
